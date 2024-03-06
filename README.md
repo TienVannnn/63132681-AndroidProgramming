@@ -15,3 +15,6 @@
 * App BMI Calculator [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/BMICalculator)
 <img src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/708f4ed8-9217-47a5-9b37-2140a0c0cd16" alt="This is an alt text." width="300" height="500">
 
+
+* Chương trình SayHi đơn giản [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/SayHi)
+
