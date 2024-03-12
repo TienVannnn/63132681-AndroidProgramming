@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#FF4500" /> <!-- Màu khi Button được nhấn -->
+            <corners android:radius="10dp" /> <!-- Đường cong của góc -->
+        </shape>
+    </item>
+
+    <!-- Button Focused -->
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFA07A" /> <!-- Màu khi Button được focus -->
+            <corners android:radius="10dp" /> <!-- Đường cong của góc -->
+        </shape>
+    </item>
+
+    <!-- Default Button -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#62AE0A" /> <!-- Màu mặc định của Button -->
+            <corners android:radius="10dp" /> <!-- Đường cong của góc -->
+        </shape>
+    </item>
+</selector>

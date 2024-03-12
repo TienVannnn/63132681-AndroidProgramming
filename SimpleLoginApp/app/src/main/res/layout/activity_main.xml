@@ -85,11 +85,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:backgroundTint="#C3C3C3"
+        android:background="@drawable/btn_custom"
         android:layout_marginTop="30dp"
         android:text="LOGIN"
         android:textSize="25dp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:onClick="HamDangNhap"
         />
 
