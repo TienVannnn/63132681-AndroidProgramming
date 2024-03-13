@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bạn chọn Item số: "
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/edtViTri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#A3EBF4"
+            android:enabled="false"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Có giá trị là: "
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/edtGiaTri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8BE68F"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/btnThem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LƯU THÊM"
+            android:textStyle="bold"
+            android:width="100dp"
+            android:backgroundTint="#F8867E"
+            android:layout_margin="10dp"
+            android:textSize="15dp"
+            android:onClick="AddItem"/>
+        <Button
+            android:id="@+id/btnSua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LƯU SỬA"
+            android:textStyle="bold"
+            android:width="100dp"
+            android:backgroundTint="#DCD173"
+            android:layout_margin="10dp"
+            android:textSize="15dp"/>
+        <Button
+            android:id="@+id/btnXoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XÓA"
+            android:textStyle="bold"
+            android:onClick="RemoveItem"
+            android:height="60dp"
+            android:backgroundTint="#6E918E"
+            android:layout_margin="10dp"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/lvDS"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+
+</LinearLayout>
+
+
