@@ -11,10 +11,14 @@
 | Ex5_AddSubMulDiv_Var     |  Done    | [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/Ex5_AddSubMulDiv_Var)
 
 ##
+## Thực Hành với ListView
+* Ví Dụ ListView [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ViDuListView)
+* ListView với các chức năng thêm xóa sửa [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ListViewThemSuaXoa)
+##
 ## Bài tập làm thêm
 * App BMI Calculator [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/BMICalculator)
 * Chương trình SayHi đơn giản [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/SayHi)
 * SimpleLoginApp [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/SimpleLoginApp)
 * TipCalculator [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/TipCalculator)
-* ListView với các chức năng thêm xóa sửa [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ListViewThemSuaXoa)
+* Tính toán xử lý các loại sự kiện [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/THplus_P2Bai8_XuLyCacLoaiSuKien)
 
