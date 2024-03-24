@@ -20,16 +20,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20dp"/>
+
             <TextView
                 android:id="@+id/tvTPDT"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@color/text_color"
                 android:layout_marginTop="28dp"
-                android:textSize="20dp"
+                android:layout_weight="1"
+                android:text="TextView"
                 android:textAlignment="center"
-                android:text="TextView" />
+                android:textColor="@color/text_color"
+                android:textSize="20dp" />
 
             <ImageView
                 android:id="@+id/imgDT"
@@ -163,7 +164,13 @@
 
                 </LinearLayout>
             </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/back" />
         </LinearLayout>
+
 
 
 
