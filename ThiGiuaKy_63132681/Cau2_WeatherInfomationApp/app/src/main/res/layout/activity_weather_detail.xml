@@ -16,10 +16,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="20dp"/>
+
 
             <TextView
                 android:id="@+id/tvTPDT"
@@ -165,9 +162,12 @@
                 </LinearLayout>
             </LinearLayout>
 
-            <ImageView
-                android:layout_width="match_parent"
+            <ImageButton
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/gradient_background"
                 app:srcCompat="@drawable/back" />
         </LinearLayout>
 
