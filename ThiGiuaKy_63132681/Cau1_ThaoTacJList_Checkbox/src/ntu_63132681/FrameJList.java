@@ -68,7 +68,7 @@ public class FrameJList extends JFrame {
 		panel_1.add(lblNewLabel);
 		
 		panel_3 = new JPanel();
-		panel_3.setBorder(new TitledBorder(new LineBorder(new Color(60, 196, 73), 2, true), "Ch\u1ECDn thao t\u00E1c", TitledBorder.LEADING, TitledBorder.TOP, new Font("Tahomo", Font.BOLD, 15), new Color(0, 0, 0)));
+		panel_3.setBorder(new TitledBorder(new LineBorder(new Color(60, 196, 73), 2, true), "Ch\u1ECDn thao t\u00E1c", TitledBorder.LEADING, TitledBorder.TOP, new Font("Tahoma", Font.BOLD, 15), new Color(0, 255, 0)));
 		panel_3.setBounds(0, 49, 279, 362);
 		panel.add(panel_3);
 		panel_3.setLayout(null);
@@ -182,7 +182,7 @@ public class FrameJList extends JFrame {
 		panel_3.add(txtTong);
 		
 		panel_4 = new JPanel();
-		panel_4.setBorder(new TitledBorder(new LineBorder(new Color(128, 0, 0), 2, true), "Nh\u1EADp th\u00F4ng tin", TitledBorder.LEADING, TitledBorder.TOP, new Font("Tahomo", Font.BOLD, 15), new Color(0, 0, 0)));
+		panel_4.setBorder(new TitledBorder(new LineBorder(new Color(128, 0, 0), 2, true), "Nh\u1EADp th\u00F4ng tin", TitledBorder.LEADING, TitledBorder.TOP, new Font("Tahoma", Font.BOLD, 15), new Color(128, 0, 0)));
 		panel_4.setBounds(278, 49, 470, 362);
 		panel_4.setLayout(null);
 		panel.add(panel_4);
@@ -222,12 +222,15 @@ public class FrameJList extends JFrame {
 		scrollPane.setViewportView(list);
 		
 		panel_2 = new JPanel();
-		panel_2.setBorder(new LineBorder(new Color(0, 0, 255), 2, true));
+		panel_2.setForeground(new Color(255, 0, 0));
+		panel_2.setBorder(new LineBorder(new Color(255, 0, 0), 2, true));
 		panel_2.setBounds(0, 415, 748, 67);
 		panel.add(panel_2);
 		panel_2.setLayout(null);
 		
 		JButton btnExit = new JButton("Đóng chương trình");
+		btnExit.setForeground(new Color(255, 255, 255));
+		btnExit.setBackground(new Color(255, 128, 128));
 		btnExit.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				Frame f = new Frame();
