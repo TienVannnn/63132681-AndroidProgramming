@@ -36,6 +36,7 @@ public class FrameJList extends JFrame {
 	private JList<String> list;
 	private JButton btnBoldSoChan, btnBoldSoLe, btnBoldSoNT, btnDeleteBold, btnDeleteResultBold, btnTong, btnAddItem;
 	private JCheckBox cbSoAm;
+	JLabel txtTong;
 	
 	DefaultListModel<String> model;
 
@@ -164,12 +165,19 @@ public class FrameJList extends JFrame {
 		btnTong.setFont(new Font("Tahoma", Font.BOLD, 18));
 		btnTong.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				int n = model.getSize();
+				float t = 0;
+				for(int i = 0; i < n; i++) {
+					t += Float.parseFloat(model.getElementAt(i));
+				}
+				txtTong.setText("Tổng giá trị trong JList là: " + String.valueOf(t));
 			}
 		});
 		btnTong.setBounds(10, 266, 247, 38);
 		panel_3.add(btnTong);
 		
-		JLabel txtTong = new JLabel("");
+		txtTong = new JLabel("");
+		txtTong.setFont(new Font("Tahoma", Font.PLAIN, 15));
 		txtTong.setBounds(10, 314, 247, 38);
 		panel_3.add(txtTong);
 		
@@ -181,7 +189,6 @@ public class FrameJList extends JFrame {
 		
 		model = new DefaultListModel<String>();
 		list = new JList<String>(model);
-//		DefaultListModel<String> data = (DefaultListModel<String>) list.getModel();
 		
 		btnAddItem = new JButton("Thêm");
 		btnAddItem.addActionListener(new ActionListener() {
