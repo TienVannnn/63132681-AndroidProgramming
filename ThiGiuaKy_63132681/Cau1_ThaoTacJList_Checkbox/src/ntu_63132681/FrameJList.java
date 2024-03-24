@@ -1,18 +1,12 @@
 package ntu_63132681;
 
-import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.border.EmptyBorder;
 import java.awt.BorderLayout;
-import java.awt.GridBagLayout;
-import java.awt.GridBagConstraints;
-import java.awt.Insets;
 import javax.swing.JLabel;
 import java.awt.Font;
-import javax.swing.BoxLayout;
 import javax.swing.DefaultListModel;
 
 import java.awt.Color;
@@ -24,6 +18,7 @@ import javax.swing.border.TitledBorder;
 import javax.swing.JTextField;
 import javax.swing.JCheckBox;
 import javax.swing.JList;
+import javax.swing.JOptionPane;
 
 public class FrameJList extends JFrame {
 	
@@ -34,6 +29,9 @@ public class FrameJList extends JFrame {
 	private JTextField txtData;
 	private JList<String> list;
 	private JButton btnBoldSoChan, btnBoldSoLe, btnBoldSoNT, btnDeleteBold, btnDeleteResultBold, btnTong, btnAddItem;
+	private JCheckBox cbSoAm;
+	
+	DefaultListModel<String> model;
 
 	public FrameJList() {
 		setTitle("Thao tác");
@@ -45,6 +43,7 @@ public class FrameJList extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(new BorderLayout(0, 0));
 		
+		// panel chính bao các panel còn lại
 		panel = new JPanel();
 		contentPane.add(panel, BorderLayout.CENTER);
 		panel.setLayout(null);
@@ -116,9 +115,14 @@ public class FrameJList extends JFrame {
 		panel_4.setLayout(null);
 		panel.add(panel_4);
 		
+		model = new DefaultListModel<String>();
+		list = new JList<String>(model);
+//		DefaultListModel<String> data = (DefaultListModel<String>) list.getModel();
+		
 		btnAddItem = new JButton("Thêm");
 		btnAddItem.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				addItem();
 			}
 		});
 		btnAddItem.setFont(new Font("Tahoma", Font.BOLD, 18));
@@ -131,7 +135,7 @@ public class FrameJList extends JFrame {
 		panel_4.add(txtData);
 		txtData.setColumns(10);
 		
-		JCheckBox cbSoAm = new JCheckBox("Cho nhập số âm");
+		cbSoAm = new JCheckBox("Cho nhập số âm");
 		cbSoAm.setFont(new Font("Tahoma", Font.PLAIN, 18));
 		cbSoAm.setBounds(282, 46, 168, 21);
 		panel_4.add(cbSoAm);
@@ -141,21 +145,6 @@ public class FrameJList extends JFrame {
 		panel_4.add(scrollPane);
 		
 		
-		DefaultListModel<String> model = new DefaultListModel<String>();
-		list = new JList<String>(model);
-		DefaultListModel<String> data = (DefaultListModel<String>) list.getModel();
-		data.addElement("aaaaaaa");
-		data.addElement("aaaaaaa");
-		data.addElement("aaaaaaa");
-		data.addElement("aaaaaaa");
-		data.addElement("aaaaaaa");
-		data.addElement("aaaaaaa");
-		data.addElement("aaaaaaa");
-		data.addElement("aaaaaaa");
-		data.addElement("aaaaaaa");
-		data.addElement("aaaaaaa");
-		data.addElement("aaaaaaa");
-		data.addElement("aaaaaaa");
 		
 		list.setBounds(10, 87, 450, 265);
 		list.setFont(new Font("Tahoma", Font.PLAIN, 18));
@@ -171,5 +160,37 @@ public class FrameJList extends JFrame {
 		btnExit.setBounds(239, 10, 267, 39);
 		btnExit.setFont(new Font("Tahoma", Font.BOLD, 22));
 		panel_2.add(btnExit);
+	}
+	
+	void addItem() {
+		String item = txtData.getText();
+		if(item.isEmpty()) {
+			JOptionPane.showMessageDialog(null, "Không có giá trị để thêm vào", "Lỗi", JOptionPane.CANCEL_OPTION);
+		}
+		else {
+			try {
+				// Kiểm tra xem dữ liệu nhập vào có phải là chữ số hay không
+	            float number = Float.parseFloat(item);
+	            if(cbSoAm.isSelected()) {
+	            	model.addElement(item);
+	            }
+	            else {
+	            	if (number > 0) {
+	                    model.addElement(item);
+	                } else {
+	                    JOptionPane.showMessageDialog(null, "Vui lòng nhập số dương!", "Lỗi", JOptionPane.ERROR_MESSAGE);
+	                }
+	            }
+	            // Xóa nội dung trong JTextField sau khi thêm
+	            txtData.setText("");
+	            txtData.requestFocus();
+			}
+			catch (Exception e1) {
+				// Nếu không phải là số, thông báo lỗi
+	            JOptionPane.showMessageDialog(null, "Vui lòng nhập vào chỉ các chữ số!", "Lỗi", JOptionPane.ERROR_MESSAGE);
+	            txtData.setText("");
+	            txtData.requestFocus();
+			}
+		}
 	}
 }
