@@ -102,6 +102,16 @@ public class FrameJList extends JFrame {
 		panel_3.add(btnBoldSoLe);
 		
 		btnBoldSoNT = new JButton("Tô đen số nguyên tố");
+		btnBoldSoNT.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				// Kiểm tra nếu JList không có dữ liệu
+		        if (list.getModel().getSize() == 0) {
+		            JOptionPane.showMessageDialog(null, "Chưa có dữ liệu trong danh sách!", "Thông báo", JOptionPane.INFORMATION_MESSAGE);
+		            return; // Kết thúc hàm actionPerformed
+		        }
+				list.setCellRenderer(new setBoldSoNT());
+			}
+		});
 		btnBoldSoNT.setFont(new Font("Tahoma", Font.BOLD, 18));
 		btnBoldSoNT.setBounds(10, 122, 247, 38);
 		panel_3.add(btnBoldSoNT);
@@ -261,4 +271,41 @@ class setBoldSoLe extends DefaultListCellRenderer{
         
         return c;
 	}
+}
+
+class setBoldSoNT extends DefaultListCellRenderer {
+	private static final long serialVersionUID = 1L;
+    @Override
+    public Component getListCellRendererComponent(JList<?> list, Object value, int index,
+                                                  boolean isSelected, boolean cellHasFocus) {
+        Component c = super.getListCellRendererComponent(list, value, index, isSelected, cellHasFocus);
+
+        // Chuyển đổi giá trị sang kiểu long
+        double number = (Double.parseDouble(value.toString()));
+
+        // Kiểm tra nếu value là số số nguyên tố thì tô đen
+        if (laSoNT(number)) {
+            c.setFont(new Font("Tahoma", Font.BOLD, 18));
+        } else {
+            c.setFont(new Font("Tahoma", Font.PLAIN, 18));
+        }
+
+        return c;
+    }
+
+    boolean laSoNT(double n) {
+        if (n < 2) return false;
+        
+        int intPart = (int) n; // Lấy phần nguyên của n
+
+        if (n != intPart) {
+            // Nếu n không phải là số nguyên, nó không phải là số nguyên tố
+            return false;
+        }
+
+        for (int i = 2; i * i <= n; i++) {
+            if (n % i == 0) return false;
+        }
+        return true;
+    }
 }
