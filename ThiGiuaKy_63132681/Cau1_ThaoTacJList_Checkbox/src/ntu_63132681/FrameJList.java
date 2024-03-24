@@ -9,9 +9,12 @@ import javax.swing.JLabel;
 import java.awt.Font;
 import java.awt.Frame;
 
+import javax.swing.DefaultListCellRenderer;
 import javax.swing.DefaultListModel;
 
 import java.awt.Color;
+import java.awt.Component;
+
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
@@ -53,6 +56,7 @@ public class FrameJList extends JFrame {
 		panel.setLayout(null);
 		
 		panel_1 = new JPanel();
+		panel_1.setBackground(new Color(221, 253, 255));
 		panel_1.setBounds(0, 0, 748, 47);
 		panel.add(panel_1);
 		
@@ -68,6 +72,16 @@ public class FrameJList extends JFrame {
 		panel_3.setLayout(null);
 		
 		btnBoldSoChan = new JButton("Tô đen số chẵn");
+		btnBoldSoChan.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				// Kiểm tra nếu JList không có dữ liệu
+		        if (list.getModel().getSize() == 0) {
+		            JOptionPane.showMessageDialog(null, "Chưa có dữ liệu trong danh sách!", "Thông báo", JOptionPane.INFORMATION_MESSAGE);
+		            return; // Kết thúc hàm actionPerformed
+		        }
+				list.setCellRenderer(new setBoldSoChan());
+			}
+		});
 		btnBoldSoChan.setFont(new Font("Tahoma", Font.BOLD, 18));
 		btnBoldSoChan.setBounds(10, 28, 247, 38);
 		panel_3.add(btnBoldSoChan);
@@ -76,6 +90,12 @@ public class FrameJList extends JFrame {
 		btnBoldSoLe.setFont(new Font("Tahoma", Font.BOLD, 18));
 		btnBoldSoLe.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				// Kiểm tra nếu JList không có dữ liệu
+		        if (list.getModel().getSize() == 0) {
+		            JOptionPane.showMessageDialog(null, "Chưa có dữ liệu trong danh sách!", "Thông báo", JOptionPane.INFORMATION_MESSAGE);
+		            return; // Kết thúc hàm actionPerformed
+		        }
+				list.setCellRenderer(new setBoldSoLe());
 			}
 		});
 		btnBoldSoLe.setBounds(10, 74, 247, 38);
@@ -174,6 +194,7 @@ public class FrameJList extends JFrame {
 		panel_2.add(btnExit);
 	}
 	
+	// hàm thêm giá trị vào JList
 	void addItem() {
 		String item = txtData.getText();
 		if(item.isEmpty()) {
@@ -204,5 +225,40 @@ public class FrameJList extends JFrame {
 	            txtData.requestFocus();
 			}
 		}
+	}
+}
+
+	//lớp tô đen số chẵn
+class setBoldSoChan extends DefaultListCellRenderer {
+	private static final long serialVersionUID = 1L;
+	@Override
+    public Component getListCellRendererComponent(JList<?> list, Object value, int index,
+                                                  boolean isSelected, boolean cellHasFocus) {
+        Component c = super.getListCellRendererComponent(list, value, index, isSelected, cellHasFocus);
+        
+        // Kiểm tra nếu value là số chẵn thì tô đen
+        if (Float.parseFloat(value.toString()) % 2 == 0) {
+            c.setFont(new Font("Tahoma", Font.BOLD, 18));
+        } else {
+            c.setFont(new Font("Tahoma", Font.PLAIN, 18));
+        }
+        
+        return c;
+    }
+}
+
+class setBoldSoLe extends DefaultListCellRenderer{
+	private static final long serialVersionUID = 1L;
+	@Override
+	public Component getListCellRendererComponent(JList<?> list, Object value, int index, boolean isSelected, boolean cellHasFocus) {
+		Component c = super.getListCellRendererComponent(list, value, index, isSelected, cellHasFocus);
+		// Kiểm tra nếu value là số lẻ thì tô đen
+        if (Float.parseFloat(value.toString()) % 2 != 0) {
+            c.setFont(new Font("Tahoma", Font.BOLD, 18));
+        } else {
+            c.setFont(new Font("Tahoma", Font.PLAIN, 18));
+        }
+        
+        return c;
 	}
 }
