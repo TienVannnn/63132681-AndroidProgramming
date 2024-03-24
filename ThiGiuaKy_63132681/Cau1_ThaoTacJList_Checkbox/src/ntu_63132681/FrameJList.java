@@ -21,6 +21,7 @@ import java.awt.event.ActionEvent;
 import javax.swing.border.LineBorder;
 import javax.swing.border.TitledBorder;
 import javax.swing.JTextField;
+import javax.swing.ListModel;
 import javax.swing.JCheckBox;
 import javax.swing.JList;
 import javax.swing.JOptionPane;
@@ -117,6 +118,16 @@ public class FrameJList extends JFrame {
 		panel_3.add(btnBoldSoNT);
 		
 		btnDeleteBold = new JButton("Bỏ tô đen");
+		btnDeleteBold.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				// Kiểm tra nếu JList không có dữ liệu
+		        if (list.getModel().getSize() == 0) {
+		            JOptionPane.showMessageDialog(null, "Chưa có dữ liệu trong danh sách!", "Thông báo", JOptionPane.INFORMATION_MESSAGE);
+		            return; // Kết thúc hàm actionPerformed
+		        }
+				list.setCellRenderer(new removeBold());
+			}
+		});
 		btnDeleteBold.setFont(new Font("Tahoma", Font.BOLD, 18));
 		btnDeleteBold.setBounds(10, 170, 247, 38);
 		panel_3.add(btnDeleteBold);
@@ -125,6 +136,25 @@ public class FrameJList extends JFrame {
 		btnDeleteResultBold.setFont(new Font("Tahoma", Font.BOLD, 18));
 		btnDeleteResultBold.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				// Kiểm tra nếu JList không có dữ liệu
+		        if (list.getModel().getSize() == 0) {
+		            JOptionPane.showMessageDialog(null, "Chưa có dữ liệu trong danh sách!", "Thông báo", JOptionPane.INFORMATION_MESSAGE);
+		            return; // Kết thúc hàm actionPerformed
+		        }
+				DefaultListModel<String> newModel = new DefaultListModel<>();
+				ListModel<String> model = list.getModel();
+
+		        // Duyệt qua từng phần tử trong ListModel hiện tại
+		        for (int i = 0; i < model.getSize(); i++) {
+		            String value = model.getElementAt(i);
+		            // Kiểm tra nếu phần tử không có font đậm, thêm vào newModel
+		            if (!list.getCellRenderer().getListCellRendererComponent(list, value, i, false, false).getFont().isBold()) {
+		                newModel.addElement(value);
+		            }
+		        }
+
+		        // Gán newModel cho JList để cập nhật dữ liệu
+		        list.setModel(newModel);
 			}
 		});
 		btnDeleteResultBold.setBounds(10, 218, 247, 38);
@@ -307,5 +337,16 @@ class setBoldSoNT extends DefaultListCellRenderer {
             if (n % i == 0) return false;
         }
         return true;
+    }
+}
+
+class removeBold extends DefaultListCellRenderer {
+	private static final long serialVersionUID = 1L;
+    @Override
+    public Component getListCellRendererComponent(JList<?> list, Object value, int index,
+                                                  boolean isSelected, boolean cellHasFocus) {
+        Component c = super.getListCellRendererComponent(list, value, index, isSelected, cellHasFocus);
+            c.setFont(new Font("Tahoma", Font.PLAIN, 18));
+        return c;
     }
 }
