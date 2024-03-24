@@ -7,6 +7,8 @@ import javax.swing.border.EmptyBorder;
 import java.awt.BorderLayout;
 import javax.swing.JLabel;
 import java.awt.Font;
+import java.awt.Frame;
+
 import javax.swing.DefaultListModel;
 
 import java.awt.Color;
@@ -39,6 +41,8 @@ public class FrameJList extends JFrame {
 		setBounds(100, 100, 773, 530);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setResizable(false);
+		setLocationRelativeTo(null);
 
 		setContentPane(contentPane);
 		contentPane.setLayout(new BorderLayout(0, 0));
@@ -157,6 +161,14 @@ public class FrameJList extends JFrame {
 		panel_2.setLayout(null);
 		
 		JButton btnExit = new JButton("Đóng chương trình");
+		btnExit.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				Frame f = new Frame();
+				if(JOptionPane.showConfirmDialog(f, "Bạn có chắc chắn muốn thoát chương trình", "Xác nhận", JOptionPane.YES_NO_OPTION) == JOptionPane.YES_NO_OPTION) {
+					System.exit(0);
+				}			
+			}
+		});
 		btnExit.setBounds(239, 10, 267, 39);
 		btnExit.setFont(new Font("Tahoma", Font.BOLD, 22));
 		panel_2.add(btnExit);
