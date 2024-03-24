@@ -21,4 +21,5 @@
 * SimpleLoginApp [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/SimpleLoginApp)
 * TipCalculator [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/TipCalculator)
 * Tính toán xử lý các loại sự kiện [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/THplus_P2Bai8_XuLyCacLoaiSuKien)
+* Tính toán bằng dự liệu ngẫu nhiên [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/AppTinhToanBangDuLieuNgauNhien)
 
