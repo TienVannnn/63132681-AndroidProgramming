@@ -9,7 +9,7 @@
 
 <LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="240dp"
+    android:layout_height="200dp"
     android:background="#293859"/>
 
     <LinearLayout
@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_alignParentTop="true"
         android:gravity="center"
-        android:padding="30dp"
+        android:padding="25dp"
         android:layout_height="wrap_content">
         <RelativeLayout
             android:layout_width="50dp"
@@ -192,7 +192,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/circularbordersolid"
+            android:background="@drawable/background_gradient_user"
             android:gravity="center"
             android:layout_marginTop="10dp"
             android:padding="4dp">
@@ -290,6 +290,50 @@
             </LinearLayout>
 
         </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circularbordersolid"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:padding="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17sp"
+                            android:text="About Me"
+                            android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Hello everyone, tôi tên là Lê Văn Tiến, hiện đang là sinh viên năm 3 tại trường Đại Học Nha Trang."
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sở thích: Xem phim, đọc sách, bơi lội."
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="🍀 ''I have no special talents. I am only passionately curious'' -Albert Einstein-🍀."
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
 
 
         </LinearLayout>
