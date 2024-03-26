@@ -1,11 +1,11 @@
 # 63132681-AndroidProgramming
 
 ## Bài kiểm tra giữa kỳ
-| Tên bài | Tình trạng | [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ThiGiuaKy_63132681)
-|:-------------:|:-------------:|:-------------:
+| Tên bài | Tình trạng | [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ThiGiuaKy_63132681) | Link Figma
+|:-------------:|:-------------:|:-------------: |:---------------
 | Cau1_ThaoTacJList_Checkbox    | Done | [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ThiGiuaKy_63132681/Cau1_ThaoTacJList_Checkbox)
 | Cau2_WeatherInfomationApp     | Done     | [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ThiGiuaKy_63132681/Cau2_WeatherInfomationApp)
-| Cau3_SimpleProfile     | Done    | [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ThiGiuaKy_63132681/Cau3_SimpleProfile)
+| Cau3_SimpleProfile     | Done    | [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ThiGiuaKy_63132681/Cau3_SimpleProfile) |  [Tại đây](https://www.figma.com/file/adN5GGE3AxPfTPXoKWVZJJ/Cau3_SimpleProfile?type=design&node-id=0-1&mode=design&t=HDVK8FrMUASlsRy1-0)
 
 ##
 ## Thực Hành với ListView
