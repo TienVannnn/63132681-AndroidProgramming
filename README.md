@@ -20,7 +20,7 @@
 * TipCalculator [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/TipCalculator)
 * Tính toán xử lý các loại sự kiện [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/THplus_P2Bai8_XuLyCacLoaiSuKien)
 * Tính toán bằng dự liệu ngẫu nhiên [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/AppTinhToanBangDuLieuNgauNhien)
-
+* Sum Quiz  [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/SumQuiz)
 ##
 ## Bài thực hành tuần 2
 | Tên bài thực hành | Tình trạng | Chi tiết
