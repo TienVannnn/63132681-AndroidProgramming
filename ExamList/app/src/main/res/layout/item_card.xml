@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First exam"
+        android:textColor="#048E09"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:id="@+id/item_img1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/clock"
+        android:layout_below="@+id/item_title"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_title"
+        android:layout_toEndOf="@id/item_img1"
+        android:text="16/04/2024"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageView
+        android:id="@+id/item_img2"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_below="@+id/item_img1"
+        android:background="@drawable/graduation_cap"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/item_graduate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_time"
+        android:layout_toEndOf="@id/item_img2"
+        android:text="Try your best!"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/border2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/item_graduate"
+        android:background="#808080"/>
+
+</RelativeLayout>
