@@ -2,8 +2,9 @@
 
 ## RecyclerView
 * ExampleRecyclerView [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ExampleRecyclerView)
-* ViewPager2RecyclerViewAdapter [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ViewPager2RecyclerViewAdapter)
 * ExamList [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ExamList)
+* ViewPager2RecyclerViewAdapter [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ViewPager2RecyclerViewAdapter)
+* ViewPager2TabLayoutFragment [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ViewPager2TabLayoutFragment)
 ##
 
 ## Bài kiểm tra giữa kỳ
