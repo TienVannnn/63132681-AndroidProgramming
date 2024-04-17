@@ -7,19 +7,26 @@ import androidx.viewpager2.widget.ViewPager2;
 import android.os.Bundle;
 import android.view.View;
 
+import com.google.android.material.tabs.TabLayout;
+import com.google.android.material.tabs.TabLayoutMediator;
+
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     ArrayList<Landscape> ds;
+    TabLayout tabLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ds =getDataViewPager2();
+        tabLayout = findViewById(R.id.tabLayoutLandscape);
         ViewPager2 viewPager2 = findViewById(R.id.viewPager);
         viewPager2.setAdapter(new ViewPagerAdapter(this, ds));
         viewPager2.setPageTransformer(pageTransformer);
+        TabLayoutMediator tabLayoutMediator = new TabLayoutMediator(tabLayout, viewPager2, ((tab, position) -> tab.setText("Land " + (position + 1))));
+        tabLayoutMediator.attach();
     }
     ViewPager2.PageTransformer pageTransformer = new ViewPager2.PageTransformer() {
         @Override
