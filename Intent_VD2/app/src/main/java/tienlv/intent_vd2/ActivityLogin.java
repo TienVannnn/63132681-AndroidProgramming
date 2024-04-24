@@ -28,7 +28,10 @@ public class ActivityLogin extends AppCompatActivity {
             String tenDN = userName.getText().toString();
             String pw = pass.getText().toString();
             String email = mail.getText().toString();
-            if(tenDN.equals("levantien") && pw.equals("63CNTT2")){
+            if(tenDN.isEmpty() || pw.isEmpty() || email.isEmpty()){
+                Toast.makeText(ActivityLogin.this, "Bạn chưa nhập đầy đủ dữ liệu!", Toast.LENGTH_SHORT).show();
+            }
+            else if(tenDN.equals("levantien") && pw.equals("63CNTT2")){
                 if(email.matches(EMAIL_REGEX)){
                     Intent iQuiz = new Intent(ActivityLogin.this, ActivityHome.class);
                     iQuiz.putExtra("userName", tenDN);

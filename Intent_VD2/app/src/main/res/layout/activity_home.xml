@@ -25,6 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="Chào mừng"
+            android:gravity="center"
             android:textSize="20dp"/>
         <TextView
             android:id="@+id/tvUserName"
