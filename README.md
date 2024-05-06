@@ -1,4 +1,7 @@
 # 63132681-AndroidProgramming
+## 🔥BottomNavigation
+* Example_BottomNavigationView [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/Example_BottomNavigationView)
+##
 ## 🔥Intent
 * Intent - Ví dụ 1 [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/Intent_VD1)
 * Intent - Ví dụ 2 [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/Intent_VD2)
