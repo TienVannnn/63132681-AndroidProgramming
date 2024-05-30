@@ -48,9 +48,9 @@
 ##
 ## 🔥Intent
 * Intent - Ví dụ 1 [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/Intent_VD1)
-<img alt="Raydiance" width="300" height="600" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/597662e9-ea82-44d9-8ac1-8802b7435629" />
-<img alt="Raydiance" width="300" height="600" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/e990926f-c3a3-4e1d-8e25-37ebf76d41e2" />
-<img alt="Raydiance" width="300" height="600" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/e990926f-c3a3-4e1d-8e25-37ebf76d41e2" />
+<img alt="intent_vd1_1" width="200" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/597662e9-ea82-44d9-8ac1-8802b7435629" />
+<img alt="intent_vd1_2" width="200" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/e990926f-c3a3-4e1d-8e25-37ebf76d41e2" />
+<img alt="intent_vd1_1" width="200" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/e990926f-c3a3-4e1d-8e25-37ebf76d41e2" />
 
 
 
