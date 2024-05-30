@@ -4,7 +4,7 @@
     <tr>
         <td style="text-align: center;">
             <div style="text-align: center;">
-                <a target="_blank" href="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/0c38edb3-68d9-49ea-b572-a94b6fa1b4f2">
+                <a target="_blank" href="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/e55ec2ed-36f1-4265-b733-35bde7065e64">
                     <img alt="Raydiance" width="401" height="869" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/e55ec2ed-36f1-4265-b733-35bde7065e64" />
                 </a>
                 <div>
