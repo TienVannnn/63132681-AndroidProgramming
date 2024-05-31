@@ -1,10 +1,59 @@
 # 63132681-AndroidProgramming
+## 🔥Database
+<table>
+    <tr>
+        <td style="text-align: center;">
+            <div style="text-align: center;">
+                <a target="_blank" href="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/e55ec2ed-36f1-4265-b733-35bde7065e64">
+                    <img alt="Raydiance" width="401" height="869" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/e55ec2ed-36f1-4265-b733-35bde7065e64" />
+                </a>
+                <div>
+                    <span>SQLiteDatabase</span>
+                    <a href="https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/SQLiteDatabase/app/src/main">Chi tiết tại đây</a>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+
+##
 ## 🔥Navigation
-* BottomNavigationView [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/Example_BottomNavigationView)
-* NavigationDrawer [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/NavigationDrawer/app/src/main)
+<table>
+    <tr>
+        <td style="text-align: center;">
+            <div style="text-align: center;">
+                <a target="_blank" href="https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/Example_BottomNavigationView">
+                    <img alt="Raydiance" width="401" height="869" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/d13abb15-8c1f-4f47-8e19-1afcdfce4240" />
+                </a>
+                <div>
+                    <span>BottomNavigationView</span>
+                    <a href="https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/Example_BottomNavigationView">Chi tiết tại đây</a>
+                </div>
+            </div>
+        </td>
+      <td style="text-align: center;">
+            <div style="text-align: center;">
+                <a target="_blank" href="https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/NavigationDrawer/app/src/main">
+                    <img alt="Raydiance" width="401" height="869" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/b0db67f5-6cc8-4752-951d-0168fde4787d" />
+                </a>
+                <div>
+                    <span>NavigationDrawer</span>
+                    <a href="https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/NavigationDrawer/app/src/main">Chi tiết tại đây</a>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+
 ##
 ## 🔥Intent
 * Intent - Ví dụ 1 [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/Intent_VD1)
+<img alt="intent_vd1_1" width="280" height="550" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/597662e9-ea82-44d9-8ac1-8802b7435629" />
+<img alt="intent_vd1_2" width="280" height="550" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/e990926f-c3a3-4e1d-8e25-37ebf76d41e2" />
+<img alt="intent_vd1_1" width="280" height="550" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/e990926f-c3a3-4e1d-8e25-37ebf76d41e2" />
+
+
+
 * Intent - Ví dụ 2 [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/Intent_VD2)
 * Intent - Ví dụ 2* - Advance [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/Intent_ViDu2Star)
 ##
