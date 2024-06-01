@@ -137,21 +137,84 @@
 <img alt="intent_vd1_1" width="270" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/8044357f-d18e-42e2-987a-3152207e51e8" />
 <img alt="intent_vd1_1" width="270" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/b50bfb8e-d48c-45e7-83d2-33b6d651e07e" />
 
+##
+## 🔥Bài tập làm thêm cộng điểm
+
+<table>
+    <tr>
+        <td style="text-align: center;">
+            <div style="text-align: center;">
+                <a target="_blank" href="https://github.com/TienVannnn/63132681-AndroidProgramming/blob/main/images/bmi.png">
+                    <img alt="BMI" width="270" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/56124276-131b-4f6e-83e3-549a365af486" />
+                </a>
+                <div>
+                    <a href="https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/BMICalculator">BMI Calculator</a>
+                </div>
+            </div>
+        </td>
+      <td style="text-align: center;">
+            <div style="text-align: center;">
+                <a target="_blank" href="https://github.com/TienVannnn/63132681-AndroidProgramming/blob/main/images/login.png">
+                    <img alt="LoginApp" width="270" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/a9c33341-1729-4280-b287-db038c958b65" />
+                </a>
+                <div>
+                    <a href="https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/SimpleLoginApp">SimpleLoginApp</a>
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">
+            <div style="text-align: center;">
+                <a target="_blank" href="https://github.com/TienVannnn/63132681-AndroidProgramming/blob/main/images/tc.png">
+                    <img alt="TipC" width="270" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/7961f32a-b098-4762-9abb-32999977f646" />
+                </a>
+                <div>
+                    <a href="https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/TipCalculator">TipCalculator</a>
+                </div>
+            </div>
+        </td>
+      <td style="text-align: center;">
+            <div style="text-align: center;">
+                <a target="_blank" href="https://github.com/TienVannnn/63132681-AndroidProgramming/blob/main/images/tt.png">
+                    <img alt="tính toán" width="270" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/4a2efd5e-f5ea-41a2-880a-fd390c6bfc38" />
+                </a>
+                <div>
+                    <a href="https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/THplus_P2Bai8_XuLyCacLoaiSuKien">Tính toán xử lý</a>
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">
+            <div style="text-align: center;">
+                <a target="_blank" href="https://github.com/TienVannnn/63132681-AndroidProgramming/blob/main/images/ttnn.png">
+                    <img alt="Tính toán nn" width="270" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/6bc8b1d9-5541-4056-a693-1d05f929a86e" />
+                </a>
+                <div>
+                    <a href="https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/AppTinhToanBangDuLieuNgauNhien">Tính toán ngẫu nhiên</a>
+                </div>
+            </div>
+        </td>
+      <td style="text-align: center;">
+            <div style="text-align: center;">
+                <a target="_blank" href="https://github.com/TienVannnn/63132681-AndroidProgramming/blob/main/images/sum.png">
+                    <img alt="SumQuiz" width="270" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/a72ea641-50b2-4b2d-81b1-44f301da614a" />
+                </a>
+                <div>
+                    <a href="https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/SumQuiz">SumQuiz</a>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
 
 ##
 ## 🔥Thực Hành với ListView
 * Ví Dụ ListView [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ViDuListView)
 * ListView với các chức năng thêm xóa sửa [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ListViewThemSuaXoa)
 * Custom ListView AppFood [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/CustomListView_AppFood)
-##
-## 🔥Bài tập làm thêm
-* App BMI Calculator [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/BMICalculator)
-* Chương trình SayHi đơn giản [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/SayHi)
-* SimpleLoginApp [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/SimpleLoginApp)
-* TipCalculator [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/TipCalculator)
-* Tính toán xử lý các loại sự kiện [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/THplus_P2Bai8_XuLyCacLoaiSuKien)
-* Tính toán bằng dự liệu ngẫu nhiên [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/AppTinhToanBangDuLieuNgauNhien)
-* Sum Quiz  [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/SumQuiz)
+
 ##
 ## 🔥Bài thực hành tuần 2
 | Tên bài thực hành | Tình trạng | Chi tiết
