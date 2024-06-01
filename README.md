@@ -5,11 +5,10 @@
         <td style="text-align: center;">
             <div style="text-align: center;">
                 <a target="_blank" href="https://github.com/TienVannnn/63132681-AndroidProgramming/blob/main/images/sqlite.png">
-                    <img alt="SQLite" width="300" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/e55ec2ed-36f1-4265-b733-35bde7065e64" />
+                    <img alt="SQLite" width="270" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/e55ec2ed-36f1-4265-b733-35bde7065e64" />
                 </a>
                 <div>
-                    <span>SQLiteDatabase</span>
-                    <a href="https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/SQLiteDatabase/app/src/main">Chi tiết tại đây</a>
+                    <h4><a href = "https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/SQLiteDatabase/app/src/main">SQLiteDatabase</a></h4>
                 </div>
             </div>
         </td>
@@ -23,7 +22,7 @@
         <td style="text-align: center;">
             <div style="text-align: center;">
                 <a target="_blank" href="https://github.com/TienVannnn/63132681-AndroidProgramming/blob/main/images/bnv.png">
-                    <img alt="Bottom NV" width="300" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/d13abb15-8c1f-4f47-8e19-1afcdfce4240" />
+                    <img alt="Bottom NV" width="270" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/d13abb15-8c1f-4f47-8e19-1afcdfce4240" />
                 </a>
                 <div>
                     <span>BottomNavigationView</span>
@@ -34,7 +33,7 @@
       <td style="text-align: center;">
             <div style="text-align: center;">
                 <a target="_blank" href="https://github.com/TienVannnn/63132681-AndroidProgramming/blob/main/images/drw.png">
-                    <img alt="Drawer" width="300" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/b0db67f5-6cc8-4752-951d-0168fde4787d" />
+                    <img alt="Drawer" width="270" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/b0db67f5-6cc8-4752-951d-0168fde4787d" />
                 </a>
                 <div>
                     <span>NavigationDrawer</span>
@@ -72,7 +71,7 @@
         <td style="text-align: center;">
             <div style="text-align: center;">
                 <a target="_blank" href="https://github.com/TienVannnn/63132681-AndroidProgramming/blob/main/images/rcv.png">
-                    <img alt="Recyclerview" width="300" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/e130696b-35a2-4e44-8d1e-1c41077486a3" />
+                    <img alt="Recyclerview" width="270" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/e130696b-35a2-4e44-8d1e-1c41077486a3" />
                 </a>
                 <div>
                     <span>ExampleRecyclerView</span>
@@ -83,7 +82,7 @@
       <td style="text-align: center;">
             <div style="text-align: center;">
                 <a target="_blank" href="https://github.com/TienVannnn/63132681-AndroidProgramming/blob/main/images/exl.png">
-                    <img alt="Examlist" width="300" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/5ed45e0d-78ef-44bb-ba6e-af233be58a55" />
+                    <img alt="Examlist" width="270" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/5ed45e0d-78ef-44bb-ba6e-af233be58a55" />
                 </a>
                 <div>
                     <span>ExamList</span>
@@ -96,7 +95,7 @@
         <td style="text-align: center;">
             <div style="text-align: center;">
                 <a target="_blank" href="https://github.com/TienVannnn/63132681-AndroidProgramming/blob/main/images/vprcl.png">
-                    <img alt="Viewpager2RCV" width="300" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/a76f0723-4556-4969-840d-9a165332f3ac" />
+                    <img alt="Viewpager2RCV" width="270" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/a76f0723-4556-4969-840d-9a165332f3ac" />
                 </a>
                 <div>
                     <span>ViewPager2RecyclerViewAdapter</span>
@@ -107,7 +106,7 @@
       <td style="text-align: center;">
             <div style="text-align: center;">
                 <a target="_blank" href="https://github.com/TienVannnn/63132681-AndroidProgramming/blob/main/images/vptl.png">
-                    <img alt="ViewPagerTabLA" width="300" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/6bf181d7-5ba4-459a-9f67-91b554f09319" />
+                    <img alt="ViewPagerTabLA" width="270" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/6bf181d7-5ba4-459a-9f67-91b554f09319" />
                 </a>
                 <div>
                     <span>ViewPager2TabLayoutFragment</span>
