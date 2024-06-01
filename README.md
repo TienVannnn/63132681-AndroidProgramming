@@ -8,7 +8,7 @@
                     <img alt="SQLite" width="270" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/e55ec2ed-36f1-4265-b733-35bde7065e64" />
                 </a>
                 <div>
-                    <h4><a href = "https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/SQLiteDatabase/app/src/main">SQLiteDatabase</a></h4>
+                    <a href = "https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/SQLiteDatabase/app/src/main">SQLiteDatabase</a>
                 </div>
             </div>
         </td>
@@ -25,8 +25,7 @@
                     <img alt="Bottom NV" width="270" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/d13abb15-8c1f-4f47-8e19-1afcdfce4240" />
                 </a>
                 <div>
-                    <span>BottomNavigationView</span>
-                    <a href="https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/Example_BottomNavigationView">Chi tiết tại đây</a>
+                    <a href="https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/Example_BottomNavigationView">BottomNavigationView</a>
                 </div>
             </div>
         </td>
@@ -36,8 +35,7 @@
                     <img alt="Drawer" width="270" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/b0db67f5-6cc8-4752-951d-0168fde4787d" />
                 </a>
                 <div>
-                    <span>NavigationDrawer</span>
-                    <a href="https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/NavigationDrawer/app/src/main">Chi tiết tại đây</a>
+                    <a href="https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/NavigationDrawer/app/src/main">NavigationDrawer</a>
                 </div>
             </div>
         </td>
@@ -74,8 +72,7 @@
                     <img alt="Recyclerview" width="270" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/e130696b-35a2-4e44-8d1e-1c41077486a3" />
                 </a>
                 <div>
-                    <span>ExampleRecyclerView</span>
-                    <a href="https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ExampleRecyclerView">Chi tiết tại đây</a>
+                    <a href="https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ExampleRecyclerView">ExampleRecyclerView</a>
                 </div>
             </div>
         </td>
@@ -85,8 +82,7 @@
                     <img alt="Examlist" width="270" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/5ed45e0d-78ef-44bb-ba6e-af233be58a55" />
                 </a>
                 <div>
-                    <span>ExamList</span>
-                    <a href="https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ExamList">Chi tiết tại đây</a>
+                    <a href="https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ExamList">ExamList</a>
                 </div>
             </div>
         </td>
@@ -98,8 +94,7 @@
                     <img alt="Viewpager2RCV" width="270" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/a76f0723-4556-4969-840d-9a165332f3ac" />
                 </a>
                 <div>
-                    <span>ViewPager2RecyclerViewAdapter</span>
-                    <a href="https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ViewPager2RecyclerViewAdapter">Chi tiết tại đây</a>
+                    <a href="https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ViewPager2RecyclerViewAdapter">ViewPager2RecyclerViewAdapter</a>
                 </div>
             </div>
         </td>
@@ -109,8 +104,7 @@
                     <img alt="ViewPagerTabLA" width="270" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/6bf181d7-5ba4-459a-9f67-91b554f09319" />
                 </a>
                 <div>
-                    <span>ViewPager2TabLayoutFragment</span>
-                    <a href="https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ViewPager2TabLayoutFragment">Chi tiết tại đây</a>
+                    <a href="https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ViewPager2TabLayoutFragment">ViewPager2TabLayoutFragment</a>
                 </div>
             </div>
         </td>
@@ -125,6 +119,24 @@
 | Cau1_ThaoTacJList_Checkbox    | [Câu1.docx](https://github.com/TienVannnn/63132681-AndroidProgramming/blob/main/ThiGiuaKy_63132681/Cau1_ThaoTacJList_Checkbox/C%C3%A2u1.docx) | | [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ThiGiuaKy_63132681/Cau1_ThaoTacJList_Checkbox)
 | Cau2_WeatherInfomationApp     | [Câu2.docx](https://github.com/TienVannnn/63132681-AndroidProgramming/blob/main/ThiGiuaKy_63132681/Cau2_WeatherInfomationApp/C%C3%A2u%202.docx)  |  | [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ThiGiuaKy_63132681/Cau2_WeatherInfomationApp)
 | Cau3_SimpleProfile     | [Câu3.docx](https://github.com/TienVannnn/63132681-AndroidProgramming/blob/main/ThiGiuaKy_63132681/Cau3_SimpleProfile/C%C3%A2u%203.docx) | [Tại đây](https://www.figma.com/file/adN5GGE3AxPfTPXoKWVZJJ/Cau3_SimpleProfile?type=design&node-id=0-1&mode=design&t=HDVK8FrMUASlsRy1-0)  | [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ThiGiuaKy_63132681/Cau3_SimpleProfile) | 
+
+* Cau1_ThaoTacJList_Checkbox [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ThiGiuaKy_63132681/Cau1_ThaoTacJList_Checkbox1)
+<img alt="intent_vd1_1" width="600" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/ab67c743-af4c-4097-aff4-4d0db70c8e5e" />
+
+#
+
+* Cau2_WeatherInfomationApp [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ThiGiuaKy_63132681/Cau2_WeatherInfomationApp)
+<img alt="intent_vd1_1" width="270" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/c1cea900-d41a-41b7-8e55-8f7a2940ed01" />
+<img alt="intent_vd1_1" width="270" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/ffd50af2-5ff6-4b39-a1e3-0734f08b697a" />
+
+#
+
+* Cau3_SimpleProfile [Chi tiết tại đây](https://github.com/TienVannnn/63132681-AndroidProgramming/tree/main/ThiGiuaKy_63132681/Cau3_SimpleProfile)
+<img alt="intent_vd1_1" width="270" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/1d1d8a52-2bc4-4956-a699-c8fd5104e3b9" />
+<img alt="intent_vd1_1" width="270" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/e7b0b855-38b8-4673-8461-3e5aaa5e93ce" />
+<img alt="intent_vd1_1" width="270" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/8044357f-d18e-42e2-987a-3152207e51e8" />
+<img alt="intent_vd1_1" width="270" height="500" src="https://github.com/TienVannnn/63132681-AndroidProgramming/assets/145122420/b50bfb8e-d48c-45e7-83d2-33b6d651e07e" />
+
 
 ##
 ## 🔥Thực Hành với ListView
